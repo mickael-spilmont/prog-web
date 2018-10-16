@@ -39,3 +39,24 @@
 03-Oct-2018 15:17:51.987 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 03-Oct-2018 15:17:51.997 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
 03-Oct-2018 15:17:51.998 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+16-Oct-2018 18:55:35.973 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+16-Oct-2018 18:55:36.076 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Oct-2018 18:55:36.087 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Oct-2018 18:55:36.088 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Oct-2018 18:55:36.089 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Oct-2018 18:55:36.089 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 314 ms
+16-Oct-2018 18:55:36.121 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service Catalina
+16-Oct-2018 18:55:36.122 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+16-Oct-2018 18:55:36.128 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/mickael/Code/prog-web/tomcat8/webapps/ROOT de l'application web
+16-Oct-2018 18:55:36.272 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/mickael/Code/prog-web/tomcat8/webapps/ROOT has finished in 143 ms
+16-Oct-2018 18:55:36.273 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/mickael/Code/prog-web/tomcat8/webapps/tp2 de l'application web
+16-Oct-2018 18:55:36.308 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/mickael/Code/prog-web/tomcat8/webapps/tp2 has finished in 35 ms
+16-Oct-2018 18:55:36.309 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/mickael/Code/prog-web/tomcat8/webapps/host-manager de l'application web
+16-Oct-2018 18:55:36.325 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/mickael/Code/prog-web/tomcat8/webapps/host-manager has finished in 16 ms
+16-Oct-2018 18:55:36.325 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/mickael/Code/prog-web/tomcat8/webapps/manager de l'application web
+16-Oct-2018 18:55:36.340 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/mickael/Code/prog-web/tomcat8/webapps/manager has finished in 14 ms
+16-Oct-2018 18:55:36.341 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Oct-2018 18:55:36.348 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Oct-2018 18:55:36.355 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 265 ms
+16-Oct-2018 19:32:36.603 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire /home/mickael/Code/prog-web/tomcat8/webapps/vide de l'application web
+16-Oct-2018 19:32:36.622 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/mickael/Code/prog-web/tomcat8/webapps/vide has finished in 19 ms
