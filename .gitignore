@@ -18,3 +18,4 @@ ressources
 *.log
 *.txt
 tomcat8/logs/
+debug.html

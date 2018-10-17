@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"></head><body>
+
+<!-- Formulaire 1 get -->
+<form action="http://localhost:8080/tp3/servlet-double" method="get">
+Prénom :
+<input type="text" name="prenom" value="Don Quichotte">
+<br><br>
+Nom :
+<input type="text" name="nom" value="De la Manche">
+<br><br>
+Sexe :
+<div>
+<input type="radio" name="sexe" value="homme" checked> Homme<br>
+<input type="radio" name="sexe" value="femme"> Femme<br>
+<input type="radio" name="sexe" value="autre"> Autre<br>
+</div>
+<br><br>
+Loisirs :
+<select name="loisir">
+  <option value="musique">Musique</option>
+  <option value="cinema">Cinema</option>
+  <option value="sport">Sport</option>
+  <option value="autre">Autre</option>
+</select>
+<br><br>
+Commentaires :<br>
+<textarea name="commentaire" rows="10" cols="30">Laissez vos commentaires.
+</textarea>
+<br><br>
+<input type="submit" value="Valider">
+</form>
+<br><br>
+
+<!-- Formulaire 2 post -->
+<form action="http://localhost:8080/tp3/servlet-double" method="post">
+Prénom :
+<input type="text" name="prenom" value="Don Quichotte">
+<br><br>
+Nom :
+<input type="text" name="nom" value="De la Manche">
+<br><br>
+Sexe :
+<div>
+<input type="radio" name="sexe" value="homme" checked> Homme<br>
+<input type="radio" name="sexe" value="femme"> Femme<br>
+<input type="radio" name="sexe" value="autre"> Autre<br>
+</div>
+<br><br>
+Loisirs :
+<select name="loisir">
+  <option value="musique">Musique</option>
+  <option value="cinema">Cinema</option>
+  <option value="sport">Sport</option>
+  <option value="autre">Autre</option>
+</select>
+<br><br>
+Commentaires :<br>
+<textarea name="commentaire" rows="10" cols="30">Laissez vos commentaires.
+</textarea>
+<br><br>
+<input type="submit" value="Valider">
+</form>
+
+</body></html>
+
+<!-- URL par défaut avec envoi en get
+http://localhost:8080/servlet/test?prenom=Pierre&nom=Quiroule&sexe=homme&Loisir=sport&commentaire=Ajoutez+vos+commentaires.%0D%0A
+-->
+
+<!-- Pour faire appel à ServletSimple.java
+<form action="http://localhost:8080/tp3/servlet-simple" method="get">
+-->
