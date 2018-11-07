@@ -32,7 +32,8 @@ public class Servlet1 extends HttpServlet {
       +   "<input type=\"number\" name=\"debit\" min=\"0\" value=\"0\" step=\"10\""
       +   "<br><br><br>"
       +   "<input type=\"submit\" value=\"Valider\">"
-      +   "<input type=\"hidden\" name=\"prenom\" value=\"" + nom + "\">" 
+      +   "<input type=\"hidden\" name=\"prenom\" value=\"" + nom + "\">"
+      +   "<input type=\"hidden\" name=\"budget\" value=\"" + budget + "\">"
       + "</form>"
       + "</html></body>");
   }

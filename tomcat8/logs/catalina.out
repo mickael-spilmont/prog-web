@@ -1464,3 +1464,168 @@
 07-Nov-2018 11:06:59.868 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 07-Nov-2018 11:06:59.871 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 07-Nov-2018 11:06:59.871 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 350 ms
+07-Nov-2018 11:37:29.373 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Nov-2018 11:37:29.374 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:37:29.425 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:37:29.476 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Nov-2018 11:37:29.511 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:37:29.539 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:37:29.539 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:37:29.540 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:37:29.672 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+07-Nov-2018 11:37:29.794 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:37:29.804 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Nov-2018 11:37:29.806 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:37:29.807 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Nov-2018 11:37:29.807 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 302 ms
+07-Nov-2018 11:37:29.822 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Nov-2018 11:37:29.822 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+07-Nov-2018 11:37:29.828 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp2
+07-Nov-2018 11:37:29.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp2 has finished in 167 ms
+07-Nov-2018 11:37:29.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/ROOT
+07-Nov-2018 11:37:30.009 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/ROOT has finished in 14 ms
+07-Nov-2018 11:37:30.009 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/vide
+07-Nov-2018 11:37:30.047 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/vide has finished in 38 ms
+07-Nov-2018 11:37:30.047 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp3
+07-Nov-2018 11:37:30.063 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp3 has finished in 16 ms
+07-Nov-2018 11:37:30.063 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/manager
+07-Nov-2018 11:37:30.083 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/manager has finished in 20 ms
+07-Nov-2018 11:37:30.083 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/host-manager
+07-Nov-2018 11:37:30.098 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/host-manager has finished in 15 ms
+07-Nov-2018 11:37:30.098 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp4
+07-Nov-2018 11:37:30.128 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp4 has finished in 29 ms
+07-Nov-2018 11:37:30.129 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:37:30.132 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:37:30.133 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 325 ms
+07-Nov-2018 11:38:38.146 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Nov-2018 11:38:38.146 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:38:38.198 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:38:38.248 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Nov-2018 11:38:38.266 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:38:38.302 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:38:38.401 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:38:38.402 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:38:38.438 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+07-Nov-2018 11:38:38.560 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:38:38.569 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Nov-2018 11:38:38.571 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:38:38.572 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Nov-2018 11:38:38.572 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 303 ms
+07-Nov-2018 11:38:38.584 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Nov-2018 11:38:38.584 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+07-Nov-2018 11:38:38.590 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp2
+07-Nov-2018 11:38:38.756 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp2 has finished in 166 ms
+07-Nov-2018 11:38:38.756 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/ROOT
+07-Nov-2018 11:38:38.770 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/ROOT has finished in 13 ms
+07-Nov-2018 11:38:38.770 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/vide
+07-Nov-2018 11:38:38.808 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/vide has finished in 38 ms
+07-Nov-2018 11:38:38.808 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp3
+07-Nov-2018 11:38:38.827 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp3 has finished in 19 ms
+07-Nov-2018 11:38:38.827 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/manager
+07-Nov-2018 11:38:38.847 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/manager has finished in 20 ms
+07-Nov-2018 11:38:38.847 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/host-manager
+07-Nov-2018 11:38:38.862 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/host-manager has finished in 15 ms
+07-Nov-2018 11:38:38.862 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp4
+07-Nov-2018 11:38:38.890 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp4 has finished in 28 ms
+07-Nov-2018 11:38:38.892 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:38:38.895 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:38:38.896 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 323 ms
+07-Nov-2018 11:45:28.741 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Nov-2018 11:45:28.742 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:45:28.793 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:45:28.844 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Nov-2018 11:45:28.862 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:45:28.863 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:45:28.864 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:45:28.864 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:45:29.041 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+07-Nov-2018 11:45:29.163 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:45:29.172 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Nov-2018 11:45:29.174 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:45:29.175 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Nov-2018 11:45:29.175 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 299 ms
+07-Nov-2018 11:45:29.189 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Nov-2018 11:45:29.189 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+07-Nov-2018 11:45:29.195 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp2
+07-Nov-2018 11:45:29.361 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp2 has finished in 165 ms
+07-Nov-2018 11:45:29.361 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/ROOT
+07-Nov-2018 11:45:29.374 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/ROOT has finished in 13 ms
+07-Nov-2018 11:45:29.374 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/vide
+07-Nov-2018 11:45:29.415 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/vide has finished in 41 ms
+07-Nov-2018 11:45:29.416 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp3
+07-Nov-2018 11:45:29.435 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp3 has finished in 18 ms
+07-Nov-2018 11:45:29.435 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/manager
+07-Nov-2018 11:45:29.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/manager has finished in 20 ms
+07-Nov-2018 11:45:29.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/host-manager
+07-Nov-2018 11:45:29.470 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/host-manager has finished in 15 ms
+07-Nov-2018 11:45:29.470 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp4
+07-Nov-2018 11:45:29.502 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp4 has finished in 32 ms
+07-Nov-2018 11:45:29.504 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:45:29.507 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:45:29.507 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 331 ms
+07-Nov-2018 11:48:18.134 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Nov-2018 11:48:18.135 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:48:18.186 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:48:18.187 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Nov-2018 11:48:18.223 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:48:18.224 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:48:18.224 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:48:18.225 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:48:18.443 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+07-Nov-2018 11:48:18.567 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:48:18.577 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Nov-2018 11:48:18.579 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:48:18.580 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Nov-2018 11:48:18.581 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 305 ms
+07-Nov-2018 11:48:18.593 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Nov-2018 11:48:18.594 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+07-Nov-2018 11:48:18.603 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp2
+07-Nov-2018 11:48:18.794 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp2 has finished in 191 ms
+07-Nov-2018 11:48:18.795 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/ROOT
+07-Nov-2018 11:48:18.808 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/ROOT has finished in 13 ms
+07-Nov-2018 11:48:18.808 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/vide
+07-Nov-2018 11:48:18.840 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/vide has finished in 32 ms
+07-Nov-2018 11:48:18.840 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp3
+07-Nov-2018 11:48:18.861 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp3 has finished in 21 ms
+07-Nov-2018 11:48:18.861 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/manager
+07-Nov-2018 11:48:18.893 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/manager has finished in 31 ms
+07-Nov-2018 11:48:18.893 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/host-manager
+07-Nov-2018 11:48:18.911 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/host-manager has finished in 18 ms
+07-Nov-2018 11:48:18.911 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp4
+07-Nov-2018 11:48:18.945 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp4 has finished in 34 ms
+07-Nov-2018 11:48:18.947 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:48:18.951 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:48:18.951 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 370 ms
+07-Nov-2018 11:48:35.022 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Nov-2018 11:48:35.022 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:48:35.073 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:48:35.124 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Nov-2018 11:48:35.143 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:48:35.144 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:48:35.144 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:48:35.144 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:48:35.317 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+07-Nov-2018 11:48:35.439 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:48:35.448 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Nov-2018 11:48:35.450 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:48:35.451 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Nov-2018 11:48:35.451 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 299 ms
+07-Nov-2018 11:48:35.463 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Nov-2018 11:48:35.463 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.12
+07-Nov-2018 11:48:35.470 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp2
+07-Nov-2018 11:48:35.661 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp2 has finished in 192 ms
+07-Nov-2018 11:48:35.661 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/ROOT
+07-Nov-2018 11:48:35.676 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/ROOT has finished in 15 ms
+07-Nov-2018 11:48:35.676 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/vide
+07-Nov-2018 11:48:35.720 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/vide has finished in 44 ms
+07-Nov-2018 11:48:35.720 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp3
+07-Nov-2018 11:48:35.738 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp3 has finished in 18 ms
+07-Nov-2018 11:48:35.738 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/manager
+07-Nov-2018 11:48:35.758 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/manager has finished in 20 ms
+07-Nov-2018 11:48:35.758 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/host-manager
+07-Nov-2018 11:48:35.772 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/host-manager has finished in 14 ms
+07-Nov-2018 11:48:35.772 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp4
+07-Nov-2018 11:48:35.797 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/infoetu/spilmonm/TPs/Prog Web/tomcat8/webapps/tp4 has finished in 25 ms
+07-Nov-2018 11:48:35.799 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Nov-2018 11:48:35.803 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Nov-2018 11:48:35.803 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 352 ms
